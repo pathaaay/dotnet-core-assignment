@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <ItemGroup>
     <ProjectReference Include="..\InventoryManager.Repository\InventoryManager.Repository.csproj" />
+    <ProjectReference Include="..\InventoryManager.Service\InventoryManager.Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>

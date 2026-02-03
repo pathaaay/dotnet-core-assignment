@@ -1,11 +1,11 @@
 using InventoryManager.Repository.Models;
 
-public interface IProductService
+public interface IProductRepository
 {
     Product? Get(int id);
-    IEnumerable<Product> Get();
+    List<Product> Get();
 
     void Create(Product product);
-    void Update(Product product);
+    Product? Update(Product product);
     void Delete(int id);
 }

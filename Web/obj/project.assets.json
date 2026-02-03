@@ -1496,6 +1496,19 @@
         "runtime": {
           "bin/placeholder/InventoryManager.Repository.dll": {}
         }
+      },
+      "InventoryManager.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "InventoryManager.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManager.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManager.Service.dll": {}
+        }
       }
     }
   },
@@ -3977,11 +3990,17 @@
       "type": "project",
       "path": "../InventoryManager.Repository/InventoryManager.Repository.csproj",
       "msbuildProject": "../InventoryManager.Repository/InventoryManager.Repository.csproj"
+    },
+    "InventoryManager.Service/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManager.Service/InventoryManager.Service.csproj",
+      "msbuildProject": "../InventoryManager.Service/InventoryManager.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "InventoryManager.Repository >= 1.0.0",
+      "InventoryManager.Service >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.11"
     ]
   },
@@ -4013,6 +4032,9 @@
           "projectReferences": {
             "C:\\Users\\pathaaay\\Desktop\\projects\\dotnet\\InventoryManager.Repository\\InventoryManager.Repository.csproj": {
               "projectPath": "C:\\Users\\pathaaay\\Desktop\\projects\\dotnet\\InventoryManager.Repository\\InventoryManager.Repository.csproj"
+            },
+            "C:\\Users\\pathaaay\\Desktop\\projects\\dotnet\\InventoryManager.Service\\InventoryManager.Service.csproj": {
+              "projectPath": "C:\\Users\\pathaaay\\Desktop\\projects\\dotnet\\InventoryManager.Service\\InventoryManager.Service.csproj"
             }
           }
         }

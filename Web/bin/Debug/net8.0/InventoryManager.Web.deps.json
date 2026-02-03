@@ -9,6 +9,7 @@
       "InventoryManager.Web/1.0.0": {
         "dependencies": {
           "InventoryManager.Repository": "1.0.0",
+          "InventoryManager.Service": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.11"
         },
         "runtime": {
@@ -903,6 +904,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "InventoryManager.Service/1.0.0": {
+        "dependencies": {
+          "InventoryManager.Repository": "1.0.0"
+        },
+        "runtime": {
+          "InventoryManager.Service.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1438,6 +1450,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "InventoryManager.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventoryManager.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,8 +1,39 @@
-﻿@{
+﻿@model IEnumerable<InventoryManager.Repository.Models.Product>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">All Products</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">CreatedAt</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.Price</td>
+                    <td>@product.CreatedAt</td>
+                    <td>
+                        <a href="/Home/Edit/@product.Id" class="btn btn-primary" type="submit">Edit</a>
+                        <button class="btn btn-danger" type="submit">Delete</button>
+                    </td>
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+
 </div>

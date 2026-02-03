@@ -1,0 +1,16 @@
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\bin\Debug\net8.0\InventoryManager.Service.deps.json
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\bin\Debug\net8.0\InventoryManager.Service.dll
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\bin\Debug\net8.0\InventoryManager.Service.pdb
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\bin\Debug\net8.0\InventoryManager.Repository.dll
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\bin\Debug\net8.0\InventoryManager.Repository.pdb
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\obj\Debug\net8.0\InventoryManager.Service.csproj.AssemblyReference.cache
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\obj\Debug\net8.0\InventoryManager.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\obj\Debug\net8.0\InventoryManager.Service.AssemblyInfoInputs.cache
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\obj\Debug\net8.0\InventoryManager.Service.AssemblyInfo.cs
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\obj\Debug\net8.0\InventoryManager.Service.csproj.CoreCompileInputs.cache
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\obj\Debug\net8.0\InventoryManager.Service.sourcelink.json
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\obj\Debug\net8.0\Inventor.F702080F.Up2Date
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\obj\Debug\net8.0\InventoryManager.Service.dll
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\obj\Debug\net8.0\refint\InventoryManager.Service.dll
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\obj\Debug\net8.0\InventoryManager.Service.pdb
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Service\obj\Debug\net8.0\ref\InventoryManager.Service.dll
