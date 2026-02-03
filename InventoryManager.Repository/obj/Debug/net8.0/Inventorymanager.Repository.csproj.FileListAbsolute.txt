@@ -1,0 +1,14 @@
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\bin\Debug\net8.0\InventoryManager.Repository.deps.json
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\bin\Debug\net8.0\InventoryManager.Repository.runtimeconfig.json
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\bin\Debug\net8.0\InventoryManager.Repository.dll
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\bin\Debug\net8.0\InventoryManager.Repository.pdb
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\obj\Debug\net8.0\InventoryManager.Repository.csproj.AssemblyReference.cache
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\obj\Debug\net8.0\InventoryManager.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\obj\Debug\net8.0\InventoryManager.Repository.AssemblyInfoInputs.cache
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\obj\Debug\net8.0\InventoryManager.Repository.AssemblyInfo.cs
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\obj\Debug\net8.0\InventoryManager.Repository.csproj.CoreCompileInputs.cache
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\obj\Debug\net8.0\InventoryManager.Repository.dll
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\obj\Debug\net8.0\refint\InventoryManager.Repository.dll
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\obj\Debug\net8.0\InventoryManager.Repository.pdb
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\obj\Debug\net8.0\InventoryManager.Repository.genruntimeconfig.cache
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\obj\Debug\net8.0\ref\InventoryManager.Repository.dll
