@@ -13,14 +13,11 @@ public class ProductService : IProductService
 
     public void AddProduct(Product product)
     {
-        if (product.Price < 0)
-            throw new Exception("Product price must not be less than 0");
-        _productRepository.Create(product);
-    }
+        product.CreatedAt = DateTime.Now;
 
-    public void DeleteProductById(int id)
-    {
-        throw new NotImplementedException();
+        if (product.Price < 0)
+            throw new CustomException("Product price must not be less than 0");
+        _productRepository.Create(product);
     }
 
     public IEnumerable<Product> GetAllProducts()
@@ -30,11 +27,19 @@ public class ProductService : IProductService
 
     public Product? GetProductById(int id)
     {
-        throw new NotImplementedException();
+        return _productRepository.Get(id);
     }
 
     public void UpdateProduct(Product product)
     {
-        throw new NotImplementedException();
+        if (product.Price < 0)
+            throw new CustomException("Product price must not be less than 0");
+        Console.WriteLine("productId", product.Id);
+        _productRepository.Update(product);
+    }
+
+    public void DeleteProductById(int id)
+    {
+        _productRepository.Delete(id);
     }
 }

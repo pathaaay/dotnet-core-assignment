@@ -6,6 +6,8 @@ public interface IProductRepository
     List<Product> Get();
 
     void Create(Product product);
-    Product? Update(Product product);
+
+    void Update(Product product);
+
     void Delete(int id);
 }

@@ -1,8 +1,49 @@
-@{
-    ViewData["Title"] = "Product Details";
+@model InventoryManager.Repository.Models.Product;
 
+@{
+    ViewData["Title"] = "Edit Product";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Edit Products @ViewData["productId"]</h1>
+<div class="">
+    <h1 class="display-4 text-center">Edit Product @ViewData["productId"]</h1>
+
+    <div asp-asp-validation-summary="All" class="text-danger" />
+
+    <form asp-action="Edit" class="d-flex gap-2 flex-column w-50 mx-auto">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="Name" class="control-label"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Price" class="control-label"></label>
+            <input asp-for="Price" class="form-control" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Quantity" class="control-label"></label>
+            <input asp-for="Quantity" class="form-control" />
+            <span asp-validation-for="Quantity" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Category" class="control-label"></label>
+            <select class="form-select" aria-label="Default select example" asp-for="Category">
+                <option selected>Select Category</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Kitchen">Kitchen</option>
+                <option value="Beauty">Beauty</option>
+                <option value="Toys">Toys</option>
+                <option value="Book">Book</option>
+            </select>
+            <span asp-validation-for="Category" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Add Product" class="btn btn-primary" />
+        </div>
+    </form>
 </div>

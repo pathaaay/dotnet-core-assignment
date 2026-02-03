@@ -7,12 +7,10 @@ namespace InventoryManager.Web.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
     private readonly IProductService _productService;
 
     public HomeController(IProductService productService, ILogger<HomeController> logger)
     {
-        _logger = logger;
         _productService = productService;
     }
 
@@ -30,20 +28,56 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult Add(Product product)
     {
-        _productService.AddProduct(product);
-        ViewBag.message = "The product " + product.Name + " is saved successfully";
-        return View();
+        if (!ModelState.IsValid)
+        {
+            return View(product);
+        }
+
+        try
+        {
+            _productService.AddProduct(product);
+            return RedirectToAction("index");
+        }
+        catch (CustomException ex)
+        {
+            ModelState.AddModelError("", ex.Message);
+            return View(product);
+        }
     }
 
     public IActionResult Edit(int id)
     {
-        ViewData["productId"] = id;
-        return RedirectToAction("Home");
+        Product? product = _productService.GetProductById(id);
+        if (product == null)
+            return RedirectToAction("index");
+        return View(product);
     }
 
-    public IActionResult Privacy()
+    [HttpPost]
+    public IActionResult Edit(Product product)
     {
-        return View();
+        if (!ModelState.IsValid)
+        {
+            return View(product);
+        }
+
+        try
+        {
+            _productService.UpdateProduct(product);
+            return RedirectToAction("index");
+        }
+        catch (CustomException ex)
+        {
+            ModelState.AddModelError("", ex.Message);
+            return View(product);
+        }
+    }
+
+    [HttpPost]
+    public IActionResult Delete(int id)
+    {
+        _productService.DeleteProductById(id);
+        return RedirectToAction("index");
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

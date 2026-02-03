@@ -41,15 +41,9 @@ public class ProductRepository : IProductRepository
         return await _context.Products.ToListAsync();
     }
 
-    public Product? Update(Product product)
+    public void Update(Product product)
     {
-        var productToUpdate = _context.Products.FirstOrDefault(p => p.Id == product.Id);
-        if (productToUpdate != null)
-        {
-            productToUpdate = product;
-            _context.SaveChanges();
-        }
-
-        return productToUpdate;
+        _context.Products.Update(product);
+        _context.SaveChanges();
     }
 }
