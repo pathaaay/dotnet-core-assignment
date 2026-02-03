@@ -9,43 +9,43 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = InventoryManager.Web
 build_property.RootNamespace = InventoryManager.Web
-build_property.ProjectDir = C:\Users\pathaaay\Desktop\projects\dotnet\Web\
+build_property.ProjectDir = C:\Users\pathaaay\Desktop\projects\dotnet\web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\pathaaay\Desktop\projects\dotnet\Web
+build_property.MSBuildProjectDirectory = C:\Users\pathaaay\Desktop\projects\dotnet\web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/pathaaay/Desktop/projects/dotnet/Web/Views/Home/Add.cshtml]
+[C:/Users/pathaaay/Desktop/projects/dotnet/web/Views/Home/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pathaaay/Desktop/projects/dotnet/Web/Views/Home/Edit.cshtml]
+[C:/Users/pathaaay/Desktop/projects/dotnet/web/Views/Home/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pathaaay/Desktop/projects/dotnet/Web/Views/Home/Index.cshtml]
+[C:/Users/pathaaay/Desktop/projects/dotnet/web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pathaaay/Desktop/projects/dotnet/Web/Views/Shared/Error.cshtml]
+[C:/Users/pathaaay/Desktop/projects/dotnet/web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pathaaay/Desktop/projects/dotnet/Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/pathaaay/Desktop/projects/dotnet/web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pathaaay/Desktop/projects/dotnet/Web/Views/_ViewImports.cshtml]
+[C:/Users/pathaaay/Desktop/projects/dotnet/web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pathaaay/Desktop/projects/dotnet/Web/Views/_ViewStart.cshtml]
+[C:/Users/pathaaay/Desktop/projects/dotnet/web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pathaaay/Desktop/projects/dotnet/Web/Views/Shared/_Layout.cshtml]
+[C:/Users/pathaaay/Desktop/projects/dotnet/web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-b2erkdur5z

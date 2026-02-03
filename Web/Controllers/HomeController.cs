@@ -28,18 +28,17 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    [ValidateAntiForgeryToken]
     public IActionResult Add(Product product)
     {
         _productService.AddProduct(product);
-        ViewBag.message = "The user " + product.Name + " is saved successfully";
+        ViewBag.message = "The product " + product.Name + " is saved successfully";
         return View();
     }
 
     public IActionResult Edit(int id)
     {
         ViewData["productId"] = id;
-        return View();
+        return RedirectToAction("Home");
     }
 
     public IActionResult Privacy()

@@ -35,6 +35,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.UseMiddleware<LoggingMiddleware>();
 app.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
