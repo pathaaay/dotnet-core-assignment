@@ -144,3 +144,4 @@ C:\Users\pathaaay\Desktop\projects\dotnet\web\obj\Debug\net8.0\refint\InventoryM
 C:\Users\pathaaay\Desktop\projects\dotnet\web\obj\Debug\net8.0\InventoryManager.Web.pdb
 C:\Users\pathaaay\Desktop\projects\dotnet\web\obj\Debug\net8.0\InventoryManager.Web.genruntimeconfig.cache
 C:\Users\pathaaay\Desktop\projects\dotnet\web\obj\Debug\net8.0\ref\InventoryManager.Web.dll
+C:\Users\pathaaay\Desktop\projects\dotnet\Web\obj\Debug\net8.0\InventoryManager.Web.sourcelink.json

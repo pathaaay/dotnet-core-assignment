@@ -12,3 +12,4 @@ C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\obj\Debug\
 C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\obj\Debug\net8.0\InventoryManager.Repository.pdb
 C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\obj\Debug\net8.0\InventoryManager.Repository.genruntimeconfig.cache
 C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\obj\Debug\net8.0\ref\InventoryManager.Repository.dll
+C:\Users\pathaaay\Desktop\projects\dotnet\InventoryManager.Repository\obj\Debug\net8.0\InventoryManager.Repository.sourcelink.json
