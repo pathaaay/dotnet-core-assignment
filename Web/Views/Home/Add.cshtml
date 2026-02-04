@@ -6,38 +6,37 @@
 
 <div class="col-md-9">
     <h1 class="display-4 text-center">Add Product</h1>
-    <div asp-asp-validation-summary="All" class="text-danger" />
     <form asp-action="Add" class="d-flex gap-2 flex-column w-50 mx-auto">
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div asp-asp-validation-summary="All" />
 
-        <div class="form-group">
+        <div class="form-group d-flex flex-column">
             @Html.LabelFor(m => m.Name)
             @Html.TextBoxFor(m => m.Name)
-            @Html.ValidationMessageFor(m => m.Name)
+            @Html.ValidationMessageFor(m => m.Name, null, new { @class = "text-danger" })
         </div>
-        <div class="form-group">
+        <div class="form-group d-flex flex-column">
             @Html.LabelFor(m => m.Price)
-            @Html.TextBoxFor(m => m.Price)
-            @Html.ValidationMessageFor(m => m.Price)
+            @Html.TextBoxFor(m => m.Price, new { @type = "number" })
+            @Html.ValidationMessageFor(m => m.Price, null, new { @class = "text-danger" })
         </div>
 
-        <div class="form-group">
+        <div class="form-group d-flex flex-column">
             @Html.LabelFor(m => m.Quantity)
-            @Html.TextBoxFor(m => m.Quantity)
-            @Html.ValidationMessageFor(m => m.Quantity)
+            @Html.TextBoxFor(m => m.Quantity, new { @type = "number" })
+            @Html.ValidationMessageFor(m => m.Quantity, null, new { @class = "text-danger" })
         </div>
 
-        <div class="form-group">
+        <div class="form-group d-flex flex-column">
             @Html.LabelFor(m => m.Category)
             @Html.DropDownListFor(m => m.Category,
             new SelectList(new[] { "Electronics", "Kitchen", "Beauty", "Toys", "Book" }),
                         "Select Category",
                         new { @class = "form-control" }
-                        );
-            @Html.ValidationMessageFor(m => m.Category)
+                        )
+            @Html.ValidationMessageFor(m => m.Category, null, new { @class = "text-danger" })
         </div>
 
-        <div class="form-group">
+        <div class="form-group mt-4">
             <input type="submit" value="Add Product" class="btn btn-primary" />
         </div>
     </form>

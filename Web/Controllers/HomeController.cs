@@ -42,7 +42,7 @@ public class HomeController : Controller
         }
         catch (CustomException ex)
         {
-            ModelState.AddModelError("", ex.Message);
+            ModelState.AddModelError("Price", ex.Message);
             return View(product);
         }
     }
@@ -70,7 +70,7 @@ public class HomeController : Controller
         }
         catch (CustomException ex)
         {
-            ModelState.AddModelError("", ex.Message);
+            ModelState.AddModelError(ex.Message.Split("|")[0], ex.Message.Split("|")[1]);
             return View(product);
         }
     }

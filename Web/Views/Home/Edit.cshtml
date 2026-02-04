@@ -7,11 +7,9 @@
 <div class="">
     <h1 class="display-4 text-center">Edit Product @ViewData["productId"]</h1>
 
-    <div asp-asp-validation-summary="All" class="text-danger" />
 
     <form asp-action="Edit" class="d-flex gap-2 flex-column w-50 mx-auto">
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
+        <div asp-asp-validation-summary="All" />
         <div class="form-group">
             <label asp-for="Name" class="control-label"></label>
             <input asp-for="Name" class="form-control" />
