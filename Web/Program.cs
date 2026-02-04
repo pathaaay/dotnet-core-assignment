@@ -1,5 +1,6 @@
 using InventoryManager.Repository;
 using InventoryManager.Service;
+using InventoryManager.Web;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

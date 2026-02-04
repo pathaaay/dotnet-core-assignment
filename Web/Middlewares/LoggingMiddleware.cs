@@ -1,5 +1,7 @@
 using System.Text;
 
+namespace InventoryManager.Web;
+
 public class LoggingMiddleware
 {
     private readonly RequestDelegate _next;
