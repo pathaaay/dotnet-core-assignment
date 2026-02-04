@@ -15,8 +15,11 @@ public class ProductService : IProductService
     {
         product.CreatedAt = DateTime.Now;
 
-        if (product.Price < 0)
-            throw new CustomException("Price|Product price must not be less than 0");
+        if (product.Price <= 0)
+            throw new CustomException("Price|Price must be greater than 0");
+
+        if (product.Quantity <= 0)
+            throw new CustomException("Quantity|Quantity must be greater than 0");
         _productRepository.Create(product);
     }
 
@@ -32,8 +35,12 @@ public class ProductService : IProductService
 
     public void UpdateProduct(Product product)
     {
-        if (product.Price < 0)
-            throw new CustomException("Price|Product price must not be less than 0");
+        if (product.Price <= 0)
+            throw new CustomException("Price|Product price must be greater than 0");
+
+        if (product.Quantity <= 0)
+            throw new CustomException("Quantity|Quantity must be greater than 0");
+
         Console.WriteLine("productId", product.Id);
         _productRepository.Update(product);
     }
