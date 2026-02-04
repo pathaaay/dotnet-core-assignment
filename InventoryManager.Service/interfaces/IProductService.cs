@@ -8,4 +8,5 @@ public interface IProductService
     void AddProduct(Product product);
     void UpdateProduct(Product product);
     void DeleteProductById(int id);
+    int GetTotalProductCount();
 }

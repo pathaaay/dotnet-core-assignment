@@ -42,4 +42,9 @@ public class ProductService : IProductService
     {
         _productRepository.Delete(id);
     }
+
+    public int GetTotalProductCount()
+    {
+        return _productRepository.GetTotalProducts();
+    }
 }

@@ -4010,14 +4010,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pathaaay\\Desktop\\projects\\dotnet\\Web\\InventoryManager.Web.csproj",
+      "projectUniqueName": "C:\\Users\\pathaaay\\Desktop\\projects\\dotnet\\web\\InventoryManager.Web.csproj",
       "projectName": "InventoryManager.Web",
-      "projectPath": "C:\\Users\\pathaaay\\Desktop\\projects\\dotnet\\Web\\InventoryManager.Web.csproj",
+      "projectPath": "C:\\Users\\pathaaay\\Desktop\\projects\\dotnet\\web\\InventoryManager.Web.csproj",
       "packagesPath": "C:\\Users\\pathaaay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pathaaay\\Desktop\\projects\\dotnet\\Web\\obj\\",
+      "outputPath": "C:\\Users\\pathaaay\\Desktop\\projects\\dotnet\\web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pathaaay\\Desktop\\projects\\dotnet\\Web\\NuGet.Config",
+        "C:\\Users\\pathaaay\\Desktop\\projects\\dotnet\\web\\NuGet.Config",
         "C:\\Users\\pathaaay\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [

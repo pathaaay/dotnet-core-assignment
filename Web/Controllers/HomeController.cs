@@ -16,6 +16,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        ViewData["total_products"] = _productService.GetTotalProductCount();
+
         IEnumerable<Product> products = _productService.GetAllProducts();
         return View(products);
     }
